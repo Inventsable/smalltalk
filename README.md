@@ -1,6 +1,6 @@
 # smalltalk
 
-Dead-simple, no dependency AES-128-CBC encryption and decryption for browser
+Dead simple, no dependency, password protected AES-128-CBC encryption and decryption for browser
 
 ```bash
 npm i smalltalk
