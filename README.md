@@ -3,16 +3,16 @@
 Dead simple, no dependency, password protected AES-128-CBC encryption and decryption for browser
 
 ```bash
-npm i @Inventsable/smalltalk
+npm i @inventsable/smalltalk
 ```
 
 # Usage
 
 ```js
-import { encrypt, decrypt } from "smalltalk";
+import { encrypt, decrypt } from "@inventsable/smalltalk";
 ```
 
-## decrypt(value:any, password:string) => returns CipherParams
+## encrypt(value:any, password:string) => returns CipherParams
 
 Encodes any valid string, object or array data with a given password to a CipherParams object containing `ciphertext`, `salt` and `initialization vector` keys inline with `CryptoJS`:
 
