@@ -3,7 +3,7 @@
 Dead simple, no dependency, password protected AES-128-CBC encryption and decryption for browser
 
 ```bash
-npm i smalltalk
+npm i @Inventsable/smalltalk
 ```
 
 # Usage
